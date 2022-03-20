@@ -27,7 +27,7 @@ const ProductData = () => {
         {products.map((product) => (
           <li   key={product.id}>
 			  <div  className=" p-4  bg-white  m-6   rounded-lg py-10 sm:mx-8 text-base ">
-			  <img src={product.image} alt="image" className=" flex align-center justify-center"/>
+			  <img src={product.image} alt="product_image" className=" flex align-center justify-center"/>
 				  <p className="leading-8  flex">Tittle: {product.title}</p>
 				  <p className="leading-8 ">Price: {product.price}</p>
 				  <p className="leading-8">Category: {product.category}</p>
